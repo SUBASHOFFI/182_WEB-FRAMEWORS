@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/patient
+Content-Type: application/json
+
+{
+    "patientName": "Mohan",
+    "doctorName": "Kavin",
+    "disease": "Fever",
+    "medication": "Paracitamol"
+}
+
+
+###
+
+GET http://localhost:8080/api/patient
+
+###
+
+GET http://localhost:8080/api/patient/1

@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/product/add
+Content-Type: application/json
+
+{
+    "productName": "Medimix Soap",
+    "price": 25.60,
+    "description": "Mumbai, India",
+    "quantity": "20"
+}
+
+
+###
+
+GET http://localhost:8080/api/product
+
+###
+
+GET http://localhost:8080/api/product/1

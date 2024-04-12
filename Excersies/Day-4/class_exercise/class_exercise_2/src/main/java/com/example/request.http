@@ -1,0 +1,19 @@
+### GET ALL JOB
+get http://localhost:8080/api/job
+
+
+### POST JOB DETAILS
+POST http://localhost:8080/api/job
+Content-Type: application/json
+
+{
+     "jobId":5,
+     "jobTitle":"Backend developer",
+     "minSalary":50000,
+     "jobDescription":"nikil",
+     "maxSalary":1000000
+}
+
+
+### GET BY ID
+get http://localhost:8080/api/job/2

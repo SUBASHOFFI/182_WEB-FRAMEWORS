@@ -1,0 +1,20 @@
+### Get AllMedicine
+get http://localhost:8080/api/medicines
+
+### Post medicine details
+
+post http://localhost:8080/api/medicine
+Content-Type: application/json
+
+{
+     "medicineId":1,
+     "medicineName":"Nithish",
+     "medicineFor":"all_problem",
+     "medicineBrand":"ultra",
+     "manufacturedIn":"India",
+     "medicinePrice":10000.00,
+     "expiryDate":"unlimited"
+}
+
+### GET BY ID
+get http://localhost:8080/api/medicine/2

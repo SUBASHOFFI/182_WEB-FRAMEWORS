@@ -1,0 +1,46 @@
+### GET REQUEST
+get http://localhost:8080/
+
+### POST REQUEST
+post http://localhost:8080/add
+Content-Type: application/json
+
+{
+     "id":1,
+     "employeeName":"A2nand",
+     "employeeAge":21,
+     "salary":100000000
+
+}
+
+
+### PUT REQUEST
+PUT http://localhost:8080/update/2
+Content-Type: application/json
+
+{
+     "id":2,
+     "employeeName":"MohandAnand",
+     "employeeAge":21,
+     "salary":100000000
+
+}
+
+### PATCH REQUEST
+PATCH http://localhost:8080/update/2
+Content-Type: application/json
+
+{
+     "salary":100000000
+}
+
+
+
+### GET REQUEST
+get http://localhost:8080/2
+ 
+
+### Delete
+
+delete http://localhost:8080/2
+
