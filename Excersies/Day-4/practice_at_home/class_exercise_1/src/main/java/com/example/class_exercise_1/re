@@ -1,0 +1,6 @@
+POST - "/api/book" --> returns response status 201 with book object on successful creation or else 500. 
+
+GET - "/api/book" -->    returns response status 200 with List<Book> object on successful reterival or else 404.
+
+GET - "/api/book/{bookId}" -->   returns response status 200 with book object on successful reterival or else 404.
+
