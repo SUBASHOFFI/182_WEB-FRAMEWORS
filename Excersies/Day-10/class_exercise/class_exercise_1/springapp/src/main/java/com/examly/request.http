@@ -1,0 +1,44 @@
+### Post DETAILS IN DATABASE
+
+POST  http://localhost:8080/api/door
+Content-Type: application/json
+
+{
+    "doorId":4,
+    "doorType":"key",
+    "material":"granite",
+    "color":"yellow",
+    "price":3000
+}
+
+###GET DETAILS USING COLOR
+
+GET  http://localhost:8080/api/door/bycolor/yellow
+
+
+### UPDATE DETAILS BY ID
+PUT http://localhost:8080/api/door/2
+Content-Type: application/json
+
+{
+     "doorId":2,
+    "doorType":"lockandwork",
+    "material":"granite",
+    "color":"blue",
+    "price":200
+}
+
+
+### DELETE DETAILS BY ID
+DELETE  http://localhost:8080/api/door/1
+
+### GET DETAILS BY DOOR TYPE
+
+GET http://localhost:8080/api/door/bydoortype/key
+
+
+### GET ALL DETAILS FROM DATABASE
+GET http://localhost:8080/api/door
+
+### GET BY DOOR ID
+GET  http://localhost:8080/api/door/1

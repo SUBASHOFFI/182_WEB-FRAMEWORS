@@ -1,0 +1,20 @@
+### GET ALL DETAILS OF A USER
+
+GET http://localhost:8080/api/person
+
+### POST A NEW USER
+POST http://localhost:8080/api/person
+Content-Type: application/json
+
+{
+     "personId":126,
+     "firstName":"Rowdy",
+     "lastName":"Rajadurai",
+     "age":195,
+     "gender":"male"
+}
+
+### GET BY AGE
+GET http://localhost:8080/api/person/byAge?byAge=195
+
+  

@@ -1,0 +1,18 @@
+###  GET ALL DATA
+GET http://localhost:8080/api/student
+
+
+### POST DETAIL STUDENT
+POST http://localhost:8080/api/student
+Content-Type: application/json
+
+{
+   "id":"126",  
+   "name":"Rakesh",  
+   "age":"21",  
+   "city":"coimbatore",  
+   "rollno":"11"  
+}
+
+### GET DETAIL IN SORTED ORDER
+GET http://localhost:8080/api/student/sort/name

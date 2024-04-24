@@ -1,0 +1,27 @@
+### Post an children
+POST http://localhost:8080/api/children
+Content-Type: application/json
+
+{
+     "babyId":120,
+     "babyFirstName":"Bijili",
+     "babyLastName":"Ajai",
+     "fatherName":"NambuKumar",
+     "motherName":"Teriayala",
+     "address":"mandapam"
+}
+
+
+### Sort by FirstName using GET
+
+GET http://localhost:8080/api/children/sortBy/babyFirstName 
+
+
+### GET REQUEST
+
+GET http://localhost:8080/api/children/3/
+
+
+###  GET REQUEST BY PASSING OFFSET,FIELD,PAGESIZE
+
+GET http://localhost:8080/api/children/0/2/babyLastName

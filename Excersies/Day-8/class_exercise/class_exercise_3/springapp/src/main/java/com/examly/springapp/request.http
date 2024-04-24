@@ -1,0 +1,16 @@
+###Post Details of an student
+POST http://localhost:8080/Student
+Content-Type: application/json
+
+{
+     "id":124,
+     "name":"Nithish Kumar",
+     "marks":90
+}
+
+###Get Details of an student by marks less than given marks
+GET http://localhost:8080/Student/marksLessThan/100
+
+
+###Get Details of an student by marks greater than given marks
+GET http://localhost:8080/Student/marksGreaterThan/50
