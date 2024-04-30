@@ -1,0 +1,63 @@
+2024-04-29T22:03:57.763+05:30  INFO 10292 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Starting Abiex1Application using Java 17.0.10 with PID 10292 (C:\Users\abish\Videos\Documents\Webframework\Day16\abiex1\target\classes started by abish in C:\Users\abish\Videos\Documents\Webframework\Day16)
+2024-04-29T22:03:57.763+05:30  INFO 10292 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : No active profile set, falling back to 1 default profile: "default"
+2024-04-29T22:03:58.062+05:30  INFO 10292 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-29T22:03:58.062+05:30  INFO 10292 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-29T22:03:58.062+05:30  INFO 10292 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29T22:03:58.086+05:30  INFO 10292 --- [abiex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-29T22:03:58.086+05:30  INFO 10292 --- [abiex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2024-04-29T22:03:58.102+05:30  INFO 10292 --- [abiex1] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.lang.String com.example.abiex1.controller.Abicontroller.getMethodName()
+2024-04-29T22:03:58.290+05:30  INFO 10292 --- [abiex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-29T22:03:58.296+05:30  INFO 10292 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-29T22:03:58.307+05:30  INFO 10292 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Started Abiex1Application in 0.65 seconds (process running for 214.201)
+2024-04-29T22:03:58.307+05:30  INFO 10292 --- [abiex1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-29T22:04:04.684+05:30  INFO 15056 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Starting Abiex1Application using Java 17.0.10 with PID 15056 (C:\Users\abish\Videos\Documents\Webframework\Day16\abiex1\target\classes started by abish in C:\Users\abish\Videos\Documents\Webframework\Day16)
+2024-04-29T22:04:04.684+05:30  INFO 15056 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : No active profile set, falling back to 1 default profile: "default"
+2024-04-29T22:04:04.779+05:30  INFO 15056 --- [abiex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-29T22:04:04.786+05:30  INFO 15056 --- [abiex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-29T22:04:06.283+05:30  INFO 15056 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-29T22:04:06.305+05:30  INFO 15056 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-29T22:04:06.306+05:30  INFO 15056 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29T22:04:06.388+05:30  INFO 15056 --- [abiex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-29T22:04:06.388+05:30  INFO 15056 --- [abiex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1597 ms
+2024-04-29T22:04:06.521+05:30  INFO 15056 --- [abiex1] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.lang.String com.example.abiex1.controller.Abicontroller.getMethodName()
+2024-04-29T22:04:07.183+05:30  INFO 15056 --- [abiex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-29T22:04:07.230+05:30  INFO 15056 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-29T22:04:07.246+05:30  INFO 15056 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Started Abiex1Application in 3.03 seconds (process running for 3.455)
+2024-04-29T22:04:33.597+05:30  INFO 15056 --- [abiex1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-29T22:04:33.597+05:30  INFO 15056 --- [abiex1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-29T22:04:33.597+05:30  INFO 15056 --- [abiex1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-04-29T22:04:33.647+05:30  INFO 15056 --- [abiex1] [http-nio-8080-exec-1] c.e.a.Aspect.AbiAspect$$SpringCGLIB$$0   : Before invoking method: getMethodName
+2024-04-29T22:04:33.647+05:30  INFO 15056 --- [abiex1] [http-nio-8080-exec-1] c.e.a.Aspect.AbiAspect$$SpringCGLIB$$0   : Inside Before Advice
+2024-04-29T22:04:33.647+05:30  INFO 15056 --- [abiex1] [http-nio-8080-exec-1] c.e.a.Aspect.AbiAspect$$SpringCGLIB$$0   : After invoking method: getMethodName
+2024-04-29T22:07:52.578+05:30  INFO 15056 --- [abiex1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-29T22:07:52.702+05:30  INFO 15056 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Starting Abiex1Application using Java 17.0.10 with PID 15056 (C:\Users\abish\Videos\Documents\Webframework\Day16\abiex1\target\classes started by abish in C:\Users\abish\Videos\Documents\Webframework\Day16)
+2024-04-29T22:07:52.703+05:30  INFO 15056 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : No active profile set, falling back to 1 default profile: "default"
+2024-04-29T22:07:53.155+05:30  INFO 15056 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-29T22:07:53.157+05:30  INFO 15056 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-29T22:07:53.158+05:30  INFO 15056 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29T22:07:53.178+05:30  INFO 15056 --- [abiex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-29T22:07:53.181+05:30  INFO 15056 --- [abiex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 475 ms
+2024-04-29T22:07:53.193+05:30  INFO 15056 --- [abiex1] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.lang.String com.example.abiex1.controller.Abicontroller.getMethodName()
+2024-04-29T22:07:53.451+05:30  INFO 15056 --- [abiex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-29T22:07:53.487+05:30  INFO 15056 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-29T22:07:53.491+05:30  INFO 15056 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Started Abiex1Application in 0.83 seconds (process running for 229.695)
+2024-04-29T22:07:53.495+05:30  INFO 15056 --- [abiex1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-29T22:08:00.598+05:30  INFO 10292 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Starting Abiex1Application using Java 17.0.10 with PID 10292 (C:\Users\abish\Videos\Documents\Webframework\Day16\abiex1\target\classes started by abish in C:\Users\abish\Videos\Documents\Webframework\Day16)
+2024-04-29T22:08:00.601+05:30  INFO 10292 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : No active profile set, falling back to 1 default profile: "default"
+2024-04-29T22:08:00.676+05:30  INFO 10292 --- [abiex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-29T22:08:00.677+05:30  INFO 10292 --- [abiex1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-29T22:08:02.333+05:30  INFO 10292 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-29T22:08:02.350+05:30  INFO 10292 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-29T22:08:02.352+05:30  INFO 10292 --- [abiex1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29T22:08:02.455+05:30  INFO 10292 --- [abiex1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-29T22:08:02.457+05:30  INFO 10292 --- [abiex1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1778 ms
+2024-04-29T22:08:02.546+05:30  INFO 10292 --- [abiex1] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.lang.String com.example.abiex1.controller.Abicontroller.getMethodName()
+2024-04-29T22:08:03.212+05:30  INFO 10292 --- [abiex1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-29T22:08:03.268+05:30  INFO 10292 --- [abiex1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-29T22:08:03.283+05:30  INFO 10292 --- [abiex1] [restartedMain] com.example.abiex1.Abiex1Application     : Started Abiex1Application in 3.075 seconds (process running for 3.498)
+2024-04-29T22:08:07.540+05:30  INFO 10292 --- [abiex1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-29T22:08:07.541+05:30  INFO 10292 --- [abiex1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-29T22:08:07.543+05:30  INFO 10292 --- [abiex1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-29T22:08:07.592+05:30  INFO 10292 --- [abiex1] [http-nio-8080-exec-2] com.example.abiex1.Aspect.AbiAspect      : Before invoking method: getMethodName
+2024-04-29T22:08:07.594+05:30  INFO 10292 --- [abiex1] [http-nio-8080-exec-2] com.example.abiex1.Aspect.AbiAspect      : Inside Before Advice
+2024-04-29T22:08:07.597+05:30  INFO 10292 --- [abiex1] [http-nio-8080-exec-2] com.example.abiex1.Aspect.AbiAspect      : After invoking method: getMethodName
